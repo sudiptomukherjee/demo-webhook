@@ -1,4 +1,4 @@
-<mxfile modified="2024-02-16T08:43:18.709Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="xTaerM4eGyooTfjXcgGi" version="23.1.3" type="github">
+<mxfile modified="2024-02-16T08:46:24.681Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="ItjGGopg2klCgipJijGS" version="23.1.3" type="github">
   <diagram id="7gcUSTIZ7YSJ5vT40chW" name="Page-1">
     <mxGraphModel dx="872" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -80,10 +80,10 @@
           <mxGeometry x="750" y="205" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qHNljhjxRV7JtRcm4n64-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="148" width="390" height="192" as="geometry" />
+          <mxGeometry x="230" y="140" width="390" height="200" as="geometry" />
         </mxCell>
         <mxCell id="qHNljhjxRV7JtRcm4n64-26" value="&amp;nbsp;AKS Cluster" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;verticalAlign=middle;horizontal=1;labelPosition=right;verticalLabelPosition=middle;" vertex="1" parent="1">
-          <mxGeometry x="238" y="154" width="45.33" height="40" as="geometry" />
+          <mxGeometry x="238" y="148" width="45.33" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qHNljhjxRV7JtRcm4n64-27" value="Slack channel" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Slack_colored_svg-128.png" vertex="1" parent="1">
           <mxGeometry x="751" y="19" width="42" height="42" as="geometry" />
@@ -93,6 +93,14 @@
         </mxCell>
         <mxCell id="qHNljhjxRV7JtRcm4n64-33" value="Cluster Monitoring" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.monitor_running_apps" vertex="1" parent="1">
           <mxGeometry x="546" y="283.02" width="41" height="31.98" as="geometry" />
+        </mxCell>
+        <mxCell id="qHNljhjxRV7JtRcm4n64-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.759;entryY=1.463;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qHNljhjxRV7JtRcm4n64-33" target="qHNljhjxRV7JtRcm4n64-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qHNljhjxRV7JtRcm4n64-35" value="&amp;nbsp;Kinesis Export&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qHNljhjxRV7JtRcm4n64-34">
+          <mxGeometry x="0.5736" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
